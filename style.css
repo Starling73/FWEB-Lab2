@@ -1,0 +1,50 @@
+#content{
+    width: 30%;
+    height: 25%;
+}
+.square{
+    margin: 20px;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border: 1px solid red
+}
+#square-transform{
+    float: right;
+}
+#square-position{
+    float: left;
+    position: relative;
+}
+#horizontal-cross-position {
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+    top: 60px; left: 30px;
+    height: 30px;
+    width: 90px;
+}
+#vertical-cross-position {
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+    top: 0px; left: 60px;
+    height: 90px;
+    width: 30px;
+}
+#horizontal-cross-transform{
+    background-color: white;
+    border-radius: 5%;
+    height: 30px;
+    width: 90px;
+    transform: translate(30px, 60px);
+}
+#vertical-cross-transform{
+    background-color: white;
+    border-radius: 5%;
+    height: 90px;
+    width: 30px;
+    transform: translate(60px);
+}
+
+    
